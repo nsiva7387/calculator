@@ -61,23 +61,24 @@ input[type="reset"]:hover {
     <h1 align="center">Calculator</h1>
    
     <input type="text" id="i1"><br>
+         <input type="button" value="-" onclick="demo('-')">
+    <input type="button" value="*" onclick="demo('*')">
+        <input type="button" value="del" onclick="backspace()"><br>
     <input type="button" value="1" onclick="demo(1)">
     <input type="button" value="2" onclick="demo(2)">
     <input type="button" value="3" onclick="demo(3)">
-    <input type="button" value="4" onclick="demo(4)"><br>
+       <input type="button" value="/" onclick="demo('/')"> <br>
+    <input type="button" value="4" onclick="demo(4)">
     <input type="button" value="5" onclick="demo(5)">
     <input type="button" value="6" onclick="demo(6)">
     <input type="button" value="7" onclick="demo(7)">
-    <input type="button" value="8" onclick="demo(8)"><br>
+    <input type="button" value="8" onclick="demo(8)">
+        <input type="button" value="%" onclick="demo('%')"> <br>
     <input type="button" value="9" onclick="demo(9)">
     <input type="button" value="0" onclick="demo(0)">
-    <input type="button" value="-" onclick="demo('-')">
-    <input type="button" value="+" onclick="demo('+')"><br>
-    <input type="button" value="*" onclick="demo('*')">
-    <input type="button" value="/" onclick="demo('/')">
-    <input type="button" value="%" onclick="demo('%')">
-    <input type="reset" value="reset"><br>
-    <input type="button" value="del" onclick="backspace()">
+    <input type="button" value="+" onclick="demo('+')">
+   <input type="reset" value="reset"><br>
+    
     <input type="button" value="=" onclick="demo1('=')" id="equal">
     
     </form>
@@ -97,4 +98,5 @@ input[type="reset"]:hover {
     </script>
 
 </body>
+
 </html>
